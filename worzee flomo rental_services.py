@@ -134,27 +134,6 @@ def load_data():
             "Jun 24 - Mar 24, 2027",
         ],
     }
-
-    # ==========================
-    # ACCOUNT 2 RENTAL RECORDS
-    # ==========================
-    acct2_data = {
-        "No.":[1,2],
-        "Tenant's Name":[
-            "George Hammond",
-            "Cleaphus Dawolo",
-        ],
-        "Duration":[
-            "6 Months",
-            "1 Year",
-        ],
-        "Amount ($US)":[210,360],
-        "Timeline":[
-            "Jan 2 - Jul 2, 2026",
-            "May 16, 2026 - May 16, 2027",
-        ],
-    }
-
     # ==========================
     # TENANT INFORMATION
     # ==========================
