@@ -157,7 +157,7 @@ def load_data():
             "","","",
         ],
         "Address":[
-            "New G","Palm Farm Community, Johnsonville","Kpelleh Town","New Dowen, Margibi County",
+            "New Georgia Community","Palm Farm Community, Johnsonville","Kpelleh Town","New Dowen, Margibi County",
             "Wein Town Community","Ma Kebeh Shop, Johnsonville","Cooper Farm, Fendell","Point Four, Duala",
             "","","",
         ],
