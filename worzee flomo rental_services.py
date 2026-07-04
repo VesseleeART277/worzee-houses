@@ -109,7 +109,7 @@ def load_data():
             "1 Month","6 Months","6 Months","6 Months","6 Months",
             "6 Months","6 Months","6 Months","6 Months","12 Months","9 Months",
         ],
-        "Amount ($US)":[120,120,120,90,120,120,120,0,120,0,180],
+        "Amount ($US)":[20,120,120,90,120,120,120,0,120,0,180],
         "Timeline":[
             "Jan 1, 2025 - Jun 30, 2026",
             "Feb 16 - Aug 16, 2026",
