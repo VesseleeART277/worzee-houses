@@ -180,7 +180,7 @@ def load_data():
         "Purpose":[
             "LEC Recharge","Reimbursement","WAEC","Temptation / Phone",
             "Temptation / Excuse","Transportation","2 pcs of Zinc & Pay",
-            "Expenditure & Workman","Offer","Offer",
+            "Expenditure & Workmanship","Offer","Offer",
             "High School Documents","WAEC Result & School Registration",
         ],
         "Date":[
