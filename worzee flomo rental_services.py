@@ -167,7 +167,7 @@ def load_data():
             "Brother","","",
         ],
         "Landlord":["Vesselee G. Flomo"]*11,
-        "Police Contact":["Michael Johnson"]*11,
+        "Police Contact":["Michael P.Johnson"]*11,
         "Police Phone":["0770188742"]*11,
     }
 
