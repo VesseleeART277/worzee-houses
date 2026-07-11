@@ -139,32 +139,32 @@ def load_data():
         "Rental Date":[
             "Dec 18, 2025","Jun 24, 2026","Jan 7, 2026","Apr 13, 2026",
             "Dec 1, 2025","Feb 16, 2026","Mar 21, 2026","May 1, 2026",
-            "","","",
+            "Nov 2, 2025","","",
         ],
         "Tenant Phone":[
             "0777609651","0779021296","0775791797","077585969",
             "0777329044","0777331883","0775255752","0778691405",
-            "","","",
+            "0775236950","","",
         ],
         "Emergency Contact":[
             "Ruth Duzoe","Ben Kollie","Fatu Chayee & Heabetus","Jesse Cooper",
             "Bill Wonyeh","Prince Flomo","Thomas T. Kpando / Naomi","Tamba Sakillah",
-            "","","",
+            "Prince Flomo","","",
         ],
         "Emergency Phone":[
             "0777123798","0770397550 / 0888878055","0770903805 / 0887242464","0776250531",
             "0775522081","0770947612","0776700975 / 0772777619","0777668310",
-            "","","",
+            "0776218125","","",
         ],
         "Address":[
             "New Georgia Community","Palm Farm Community, Johnsonville","Kpelleh Town","New Dowen, Margibi County",
             "Wein Town Community","Ma Kebeh Shop, Johnsonville","Cooper Farm, Fendell","Point Four, Duala",
-            "","","",
+            "City View, Rehab Community","","",
         ],
         "Relationship":[
             "Sister","Father","Sister & Husband","Father",
             "Brother","Husband","Brother & Wife","Relative/Brother",
-            "","","",
+            "Brother","","",
         ],
         "Landlord":["Vesselee G. Flomo"]*11,
         "Police Contact":["Michael Johnson"]*11,
