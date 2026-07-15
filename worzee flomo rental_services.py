@@ -176,17 +176,17 @@ def load_data():
     # ==========================
     expenditure_data = {
         "No.": list(range(1,14)),
-        "Amount ($US)":[20,60,20,80,75.40,20,15,35,5,20,20,8.33,55.55],
+        "Amount ($US)":[20,60,20,80,75.40,20,15,35,5,20,20,8.33,55.55,10,],
         "Purpose":[
             "LEC Recharge","Reimbursement","WAEC","Temptation / Phone",
             "Temptation / Excuse","Transportation","2 pcs of Zinc & Pay",
             "Expenditure & Workmanship","Offer","Offer",
-            "High School Documents","WAEC Result & Entrance fee","School fee for Nurse Aide program"
+            "High School Documents","WAEC Result & Entrance fee","School fee for Nurse Aide program","2 pcs of zinc and workmanship"
         ],
         "Date":[
             "Feb 2026","Apr-Jun 2026","Apr 2026","May 7, 2026",
             "May 7, 2026","May 17, 2026","May 29, 2026","May 5, 2026",
-            "Jun 19, 2026","Jun 19, 2026","Jun 19, 2026","Jun 27, 2026","Jul 9, 2026"
+            "Jun 19, 2026","Jun 19, 2026","Jun 19, 2026","Jun 27, 2026","Jul 9, 2026","Jul 14,2026"
         ],
         "Beneficiary":[
             "LEC","Samuel Paygar","Zazay Y. Flomo","Jerrylyne Quawolo & Praiselious",
