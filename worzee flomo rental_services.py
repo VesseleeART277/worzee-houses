@@ -106,7 +106,7 @@ def load_data():
             "Abel Kollie",
         ],
         "Duration":[
-            "1 Month","6 Months","6 Months","6 Months","6 Months",
+            "6 Month","6 Months","6 Months","6 Months","6 Months",
             "6 Months","6 Months","6 Months","6 Months","12 Months","9 Months",
         ],
         "Amount ($US)":[120,120,120,90,120,120,120,120,120,0,180],
