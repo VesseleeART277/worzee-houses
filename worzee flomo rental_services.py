@@ -109,9 +109,9 @@ def load_data():
             "1 Month","6 Months","6 Months","6 Months","6 Months",
             "6 Months","6 Months","6 Months","6 Months","12 Months","9 Months",
         ],
-        "Amount ($US)":[20,120,120,90,120,120,120,120,120,0,180],
+        "Amount ($US)":[120,120,120,90,120,120,120,120,120,0,180],
         "Timeline":[
-            "Jan 1, 2025 - Jun 30, 2026",
+            "July 1, 2026 - Jan 1, 2027",
             "Feb 16 - Aug 16, 2026",
             "Mar 21 - Sep 21, 2026",
             "Apr 13 - Oct 13, 2026",
@@ -139,12 +139,12 @@ def load_data():
         "Rental Date":[
             "Dec 18, 2025","Jun 24, 2026","Jan 7, 2026","Apr 13, 2026",
             "Dec 1, 2025","Feb 16, 2026","Mar 21, 2026","May 1, 2026",
-            "Nov 2, 2025","","",
+            "Nov 2, 2025","Dec 1, 2025","Aug 1, 2021",
         ],
         "Tenant Phone":[
             "0777609651","0779021296","0775791797","077585969",
             "0777329044","0777331883","0775255752","0778691405",
-            "0775236950","","",
+            "0775236950","0777494587","0777488350",
         ],
         "Emergency Contact":[
             "Ruth Duzoe","Ben Kollie","Fatu Chayee & Heabetus","Jesse Cooper",
