@@ -181,7 +181,8 @@ def load_data():
             "LEC Recharge","Reimbursement","WAEC","Temptation / Phone",
             "Temptation / Excuse","Transportation","2 pcs of Zinc & Pay",
             "Expenditure & Workmanship","Offer","Offer",
-            "High School Documents","WAEC Result & Entrance fee","School fee for Nurse Aide program","2 pcs of zinc and workmanship"
+            "High School Documents","WAEC Result & Entrance fee","School fee for Nurse Aide program",
+            "2 pcs of zinc and workmanship"
         ],
         "Date":[
             "Feb 2026","Apr-Jun 2026","Apr 2026","May 7, 2026",
