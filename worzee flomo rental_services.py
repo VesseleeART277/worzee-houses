@@ -182,7 +182,7 @@ def load_data():
             "Temptation / Excuse","Transportation","2 pcs of Zinc & Pay",
             "Expenditure & Workmanship","Offer","Offer",
             "High School Documents","WAEC Result & Entrance fee","School fee for Nurse Aide program",
-            "2 pcs of zinc and workmanship",
+            "two pcs of zinc & workmanship",
         ],
         "Date":[
             "Feb 2026","Apr-Jun 2026","Apr 2026","May 7, 2026",
@@ -193,7 +193,7 @@ def load_data():
             "LEC","Samuel Paygar","Zazay Y. Flomo","Jerrylyne Quawolo & Praiselious",
             "Jerrylyne Quawolo & Praiselious","Vesselee G. Flomo","Ujay single room / roof",
             "Mamie single room / roof","Zazay Y. Flomo","Vesselee G. Flomo",
-            "Yanga Flomo","Yanga Flomo","Yanga Flomo "
+            "Yanga Flomo","Yanga Flomo","Yanga Flomo ",
         ],
     }
 
