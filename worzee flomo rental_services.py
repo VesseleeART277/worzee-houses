@@ -170,7 +170,7 @@ def load_data():
     # EXPENDITURE RECORDS
     # ==========================
     expenditure_data = {
-        "No.": list(range(1, 15)),
+        "No.": list(range(1, 16)),
         "Amount ($US)": [20, 60, 20, 80, 75.40, 20, 15, 35, 5, 20, 20, 8.33, 47.22, 10,20],
         "Purpose": [
             "LEC Recharge", "Reimbursement", "WAEC", "Temptation / Phone",
