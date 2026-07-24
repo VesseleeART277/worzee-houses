@@ -552,9 +552,6 @@ st.caption("© 2026 Worzee Flomo's Rental Services")
 
 
 
-Please correct the any error in this code only, don't do different changes.
-
-
 
 
 
