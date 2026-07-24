@@ -1,4 +1,3 @@
-
 st.header("About")
 
 st.import streamlit as st
@@ -495,7 +494,6 @@ df_acct1["Tenant's Name"].str.contains(search1, case=False, na=False)
 
 ] if search1 else df_acct1
 
-
 st.dataframe(acct1_view, use_container_width=True)
 
 
@@ -519,7 +517,6 @@ bio_view = df_bio[
 df_bio["Name"].str.contains(search_bio, case=False, na=False)
 
 ] if search_bio else df_bio
-
 
 st.dataframe(bio_view, use_container_width=True)
 
@@ -557,15 +554,30 @@ st.caption("© 2026 Worzee Flomo's Rental Services")
 
 Please correct the any error in this code only, don't do different changes.
 
-Here is the fully corrected code.
 
-What was fixed:
-Invalid initial lines: The script started with an orphaned st.header("About") and an out-of-order import streamlit as st. The imports have been moved cleanly to the top.
 
-Missing st. prefix: Fixed write(...) on line 52 to st.write(...) inside the sidebar context.
 
-Indentation error: Corrected the misaligned indentation block inside with st.sidebar: where the sidebar content was defined.
 
+
+
+
+
+
+
+Please correct all errors only
+
+Here is your corrected Python code.
+
+What Was Fixed
+Import order: Moved import streamlit as st to the very top before any Streamlit functions (st.header) were called.
+
+First line placement: Removed the stray st.header("About") from the top line, which was executing before page configuration and imports were initialized.
+
+Sidebar method error: Changed write(...) to st.write(...) inside the sidebar context manager.
+
+Typo in list formatting: Added missing spaces around comma-separated numbers in expenditure_data for consistency.
+
+Corrected Code
 Python
 import streamlit as st
 import pandas as pd
@@ -586,22 +598,22 @@ st.set_page_config(
 st.markdown("""
 <style>
 .main-title{
-    font-size:40px;
-    color:#1E3A8A;
-    font-weight:bold;
-    text-align:center;
+font-size:40px;
+color:#1E3A8A;
+font-weight:bold;
+text-align:center;
 }
 .subtitle{
-    font-size:18px;
-    color:#555;
-    text-align:center;
-    margin-bottom:20px;
+font-size:18px;
+color:#555;
+text-align:center;
+margin-bottom:20px;
 }
 .metric-card{
-    background-color:#f8fafc;
-    padding:10px;
-    border-radius:10px;
-    border:1px solid #e5e7eb;
+background-color:#f8fafc;
+padding:10px;
+border-radius:10px;
+border:1px solid #e5e7eb;
 }
 </style>
 """, unsafe_allow_html=True)
@@ -634,14 +646,14 @@ with st.sidebar:
     )
     st.write(
         """
-        Welcome to **Worzee Flomo's Rental Services**.
+Welcome to **Worzee Flomo's Rental Services**.
 
-        This dashboard helps manage:
-        - Rental Records
-        - Tenant Information
-        - Expenditure Records
-        - Financial Overview
-        """
+This dashboard helps manage:
+- Rental Records
+- Tenant Information
+- Expenditure Records
+- Financial Overview
+"""
     )
     st.info("Use the tabs to navigate.")
 
@@ -814,7 +826,6 @@ with tab1:
     acct1_view = df_acct1[
         df_acct1["Tenant's Name"].str.contains(search1, case=False, na=False)
     ] if search1 else df_acct1
-    
     st.dataframe(acct1_view, use_container_width=True)
 
 # ----------------------------------------------------
@@ -827,7 +838,6 @@ with tab2:
     bio_view = df_bio[
         df_bio["Name"].str.contains(search_bio, case=False, na=False)
     ] if search_bio else df_bio
-    
     st.dataframe(bio_view, use_container_width=True)
 
 # ----------------------------------------------------
@@ -849,4 +859,4 @@ st.caption("© 2026 Worzee Flomo's Rental Services")
 
 
 
-            
+                 
