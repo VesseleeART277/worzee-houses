@@ -171,7 +171,7 @@ def load_data():
     # ==========================
     expenditure_data = {
         "No.": list(range(1, 17)),
-        "Amount ($US)": [20, 60, 20, 80, 75.40, 20, 15, 35, 5, 20, 20, 8.33, 47.22, 10,20,774],
+        "Amount ($US)": [20, 60, 20, 80, 75.40, 20, 15, 35, 5, 20, 20, 8.33, 47.22, 10,20,774,],
         "Purpose": [
             "LEC Recharge", "Reimbursement", "WAEC", "Temptation / Phone",
             "Temptation / Excuse", "Transportation", "2 pcs of Zinc & Pay",
@@ -189,7 +189,7 @@ def load_data():
             "HOUSE", "Samuel Paygar", "Zazay Y. Flomo", "Jerrylyne Quawolo & Praiselious",
             "Jerrylyne Quawolo & Praiselious", "Vesselee G. Flomo", "Ujay single room / roof",
             "Mamie single room / roof", "Zazay Y. Flomo", "Vesselee G. Flomo",
-            "Yanga Flomo", "Yanga Flomo", "Yanga Flomo ", "Luke single room / roof","HOUSE","3 bedroom apartments ",
+            "Yanga Flomo", "Yanga Flomo", "Yanga Flomo ", "Luke single room / roof","HOUSE","3 bedroom apartments",
         ],
     }
 
