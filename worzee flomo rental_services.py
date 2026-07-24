@@ -1,4 +1,5 @@
-import streamlit as st
+    st.header("About")
+    st.import streamlit as st
 import pandas as pd
 
 # ----------------------------------------------------
@@ -63,8 +64,7 @@ with st.sidebar:
         "https://img.icons8.com/clouds/100/000000/home.png",
         width=100,
     )
-    st.header("About")
-    st.write(
+write(
         """
         Welcome to **Worzee Flomo's Rental Services**.
 
@@ -170,26 +170,26 @@ def load_data():
     # EXPENDITURE RECORDS
     # ==========================
     expenditure_data = {
-        "No.": list(range(1, 16)),
-        "Amount ($US)": [20, 60, 20, 80, 75.40, 20, 15, 35, 5, 20, 20, 8.33, 47.22, 10,20],
+        "No.": list(range(1, 17)),
+        "Amount ($US)": [20, 60, 20, 80, 75.40, 20, 15, 35, 5, 20, 20, 8.33, 47.22, 10,20,774],
         "Purpose": [
             "LEC Recharge", "Reimbursement", "WAEC", "Temptation / Phone",
             "Temptation / Excuse", "Transportation", "2 pcs of Zinc & Pay",
             "Expenditure & Workmanship", "Offer", "Offer",
             "High School Documents", "WAEC Result & Entrance fee", "Tuition paart payment for Nurse Aide program",
-            "two pcs of zinc & workmanship","LEC BILL",
+            "two pcs of zinc & workmanship","LEC BILL","Materials and Workmanship",
         ],
         "Date": [
             "Feb 2026", "Apr-Jun 2026", "Apr 2026", "May 7, 2026",
             "May 7, 2026", "May 17, 2026", "May 29, 2026", "May 5, 2026",
             "Jun 19, 2026", "Jun 19, 2026", "Jun 19, 2026", "Jun 27, 2026",
-            "Jul 9, 2026", "Jul 14,2026","Jul 6,2026",
+            "Jul 9, 2026", "Jul 14,2026","Jul 6,2026","July 22,2026",
         ],
         "Beneficiary": [
             "HOUSE", "Samuel Paygar", "Zazay Y. Flomo", "Jerrylyne Quawolo & Praiselious",
             "Jerrylyne Quawolo & Praiselious", "Vesselee G. Flomo", "Ujay single room / roof",
             "Mamie single room / roof", "Zazay Y. Flomo", "Vesselee G. Flomo",
-            "Yanga Flomo", "Yanga Flomo", "Yanga Flomo ", "Luke single room / roof","HOUSE",
+            "Yanga Flomo", "Yanga Flomo", "Yanga Flomo ", "Luke single room / roof","HOUSE","3 bedroom apartments ",
         ],
     }
 
