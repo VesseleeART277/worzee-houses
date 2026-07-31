@@ -401,9 +401,6 @@ with tab3:
 # ----------------------------------------------------
 st.divider()
 st.caption("© 2026 Worzee Flomo's Rental Services")
-)
-
-
 
 st.divider()
 
